@@ -1,0 +1,14 @@
+Description:
+
+Develop a desktop application which can run in single user mode and multi user mode.
+
+The application has a UI where in user can enter customer details (Like Name, age, city etc.) and save it. When the application starts
+It will read list of customer save and load those data in UI. In case of multiuser mode more than one user can work on application on their UI and add or edit customer details. These changes
+should reflect to all the users in their UI screen.
+
+important aspects :
+1) client server architecture 
+2) concurrency
+3) Extra feature like secure access to data file will be added advantage. 
+
+Like the data which will be saved can be accessed using password. Other user which will try to access the data should register to server and get authentication from server while trying to access the data file
